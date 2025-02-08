@@ -5,6 +5,13 @@
     --dark: #1A2A36;
 }
 
+.fixed-image {
+    width: 100%; /* Shtrihet sa gjerësia e containerit */
+    height: 200px; /* Jepi një lartësi fikse për të gjitha fotot */
+    object-fit: cover; /* Siguron që imazhi të përshtatet pa u deformuar */
+}
+
+
 .owl-carousel-item {
     position: relative;
     height: 750px; /* Lartësia e carousel-it */
